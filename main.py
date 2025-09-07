@@ -48,7 +48,7 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # Buraya BotFather’dan aldığın bot tokenini gir
-    app = Application.builder().token("BOT_TOKENIN").build()
+    app = Application.builder().token("8443063681:AAEMtw5dAb-EvgpZaBQYppN1Y2v9Co1qZLM").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("newgame", newgame))
